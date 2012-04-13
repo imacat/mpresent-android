@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Presentation Controller</string>
+    <string name="host_prompt">Host:</string>
+    <string name="port_prompt">:</string>
+    <string name="err_host_empty">Please fill in the remote host.</string>
+    <string name="err_missing_presentation">You must open a presentation first.</string>
+    <string name="file_chooser">Open a Presentation Document</string>
+    <string name="err_not_presentation">“%s” is not a presentation document.</string>
+    <string name="err_file_not_found">file “%s” does not exist.</string>
+</resources>

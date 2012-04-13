@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡報搖控器</string>
+    <string name="host_prompt">主機：</string>
+    <string name="port_prompt">:</string>
+    <string name="err_host_empty">請填上遠端主機名稱。</string>
+    <string name="err_missing_presentation">請先開啟簡報檔。</string>
+    <string name="file_chooser">開啟簡報檔</string>
+    <string name="err_not_presentation">「%s」不是簡報檔。</string>
+    <string name="err_file_not_found">找不到檔案「%s」。</string>
+</resources>

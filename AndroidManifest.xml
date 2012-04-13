@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="tw.idv.imacat.android.mpresent"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="13" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher" >
+        <activity android:name="RemoteControllerActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <data android:mimeType="application/vnd.ms-powerpoint" />
+                <data android:mimeType="application/vnd.sun.xml.impress" />
+                <data android:mimeType="application/vnd.oasis.opendocument.presentation" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FileChooserActivity"
+                  android:label="@string/file_chooser">
+        </activity>
+    </application>
+</manifest>
