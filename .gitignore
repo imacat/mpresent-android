@@ -1,3 +1,14 @@
-local.properties
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+app/release
+*.jks
+desktop.ini
+.cxx
 bin
 gen
